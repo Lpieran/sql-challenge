@@ -45,10 +45,9 @@ FROM employees
 GROUP BY last_name
 ORDER BY freq_count DESC;
 
-SELECT * FROM departments;
 SELECT * FROM titles;
+SELECT * FROM departments;
 SELECT * FROM employees;
 SELECT * FROM dept_emp;
 SELECT * FROM dept_manager;
 SELECT * FROM salaries;
-
